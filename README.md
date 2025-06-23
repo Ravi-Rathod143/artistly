@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+//  Final README.md for Artistly Assignment (to be added in project root)
 
-## Getting Started
+/*
+#  Artistly.com – React + Next.js Frontend Assignment
 
-First, run the development server:
+##  Description
+Artistly is a fictional platform for booking performing artists. This project was built as a test assignment using React, Next.js App Router (v14+), and Tailwind CSS.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+##  Features Implemented
+- Homepage with Hero section and category cards
+- Artist listing page with functional filters (category + location)
+- Multi-section Onboarding form with validation (React Hook Form + Yup)
+- Optional profile image upload support
+- Dashboard page with submissions and 'View' logic
+- FilterContext with useContext
+- Lazy loading of FilterBlock and Dashboard components
+- Fully mobile responsive UI (Tailwind)
+- Uses static JSON files as per assignment guidelines
+- Basic SEO support using <Head> from 'next/head'
+- Basic inline comments and function headers added
+- Hosted via Vercel (Optional for demo)
+
+##  Folder Structure
+```
+/app
+  /home/page.jsx
+  /artists/page.jsx
+  /onboard/page.jsx
+  /dashboard/page.jsx
+  layout.jsx
+  globals.css
+/components
+  Header.jsx, Hero.jsx, CategoryCard.jsx, ArtistCard.jsx, FilterBlock.jsx, DashboardTable.jsx
+/context
+  FilterContext.jsx
+/data
+  artists.json, submissions.json
+/public/images
+  singer.jpg, dancer.jpg, dj.jpg, speaker.jpg
+tailwind.config.js
+postcss.config.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Tech Stack
+- React (functional components)
+- Next.js App Router (v14+)
+- Tailwind CSS
+- React Hook Form + Yup for validation
+- Context API (global state)
+- React.lazy + Suspense for lazy loading
+- `next/link` for navigation (no `react-router-dom`)
+- `next/head` for SEO meta tags
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+##  Installation & Run Locally
+```bash
+npm install
+npm run dev
+```
+Then open: `http://localhost:3000/home`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+##  Pages Overview
+- `/home` – Hero + Category Overview (includes <Head> tags)
+- `/artists` – Artist cards with filters (uses useContext)
+- `/onboard` – Multi-step artist form with validation
+- `/dashboard` – Submission list with View popup (console)
 
-## Learn More
+##  Form Features
+- Validation using React Hook Form + Yup
+- Name, Bio, Category, Languages, Fee, Location, Optional Image Upload
+- Displays validation messages if fields are invalid
+- Submits to local console (mock API)
 
-To learn more about Next.js, take a look at the following resources:
+##  Submission
+Email to: gaurav@eventfulindia.com
+Subject: [Frontend Dev] Next.js Test Assignment Submission
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+##  Credentials (Vercel / GitHub)
+- GitHub Repo: [Your GitHub Repo Link]
+- Vercel Live URL: [Your Vercel URL]
+*/

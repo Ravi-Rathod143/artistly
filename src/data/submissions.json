@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Aarya Sharma",
+    "category": ["Singers"],
+    "location": "Mumbai",
+    "fee": "7000"
+  },
+  {
+    "name": "Rahul Dance Crew",
+    "category": ["Dancers"],
+    "location": "Delhi",
+    "fee": "5000"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Aarya Sharma",
+    "category": "Singers",
+    "price": 7000,
+    "location": "Mumbai",
+    "image": "/images/singer.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Rahul Dance Crew",
+    "category": "Dancers",
+    "price": 5000,
+    "location": "Delhi",
+    "image": "/images/dancer.jpg"
+  },
+  {
+    "id": 3,
+    "name": "DJ Nikhil",
+    "category": "DJs",
+    "price": 9000,
+    "location": "Bangalore",
+    "image": "/images/dj.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Motivator Meena",
+    "category": "Speakers",
+    "price": 6000,
+    "location": "Pune",
+    "image": "/images/speaker.jpg"
+  }
+]
