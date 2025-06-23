@@ -75,6 +75,6 @@ Email to: gaurav@eventfulindia.com
 Subject: [Frontend Dev] Next.js Test Assignment Submission
 
 ##  Credentials (Vercel / GitHub)
-- GitHub Repo: [Your GitHub Repo Link]
+- GitHub Repo: https://github.com/Ravi-Rathod143/artistly.git
 - Vercel Live URL: [Your Vercel URL]
 */
