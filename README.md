@@ -1,6 +1,4 @@
-//  Final README.md for Artistly Assignment (to be added in project root)
 
-/*
 #  Artistly.com – React + Next.js Frontend Assignment
 
 ##  Description
